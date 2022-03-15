@@ -33,7 +33,7 @@ public class TestBinarySearch {
         System.out.println(BinarySearch(new int[] {1,2,4,22,55,77,91,80}, 91));
 
         int target_actual = 7;
-        
+
         Assertions.assertEquals(BinarySearch(new int[] {1,2,4,22,55,77,91,80}, 91), target_actual);
     }
 }
