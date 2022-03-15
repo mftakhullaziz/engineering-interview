@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PrimeNumberTest {
+public class TestPrimeNumber {
 
     public String PrimeTest(int n){
         List<Integer> res = new ArrayList<>();

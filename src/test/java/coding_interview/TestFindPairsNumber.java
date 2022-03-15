@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.HashSet;
 
-public class FindAllPairsTest {
+public class TestFindPairsNumber {
 
 //    Sum is Target
 //    Arr is random Int

@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PrimeEvenOddTest {
+public class TestPrimeEvenOdd {
 
         public static List<String> Solution(int n) {
             int tmp;
