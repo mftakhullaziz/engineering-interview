@@ -27,4 +27,12 @@ public class TestFactorial {
         }
         return total;
     }
+
+    @Test
+    void testFactorialCase2(){
+        Assertions.assertAll(
+                () -> Assertions.assertEquals(FactorialCase2(5, 1),120)
+        );
+    }
+
 }
