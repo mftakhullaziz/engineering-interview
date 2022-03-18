@@ -35,4 +35,11 @@ public class TestFactorial {
         );
     }
 
+    // if not looping
+    public int FactorialRecursive(int n){
+        if (n <= 1){
+            return 1;
+        }
+        return n * FactorialCase(n-1);
+    }
 }
