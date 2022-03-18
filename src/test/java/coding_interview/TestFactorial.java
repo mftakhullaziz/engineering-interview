@@ -42,4 +42,11 @@ public class TestFactorial {
         }
         return n * FactorialCase(n-1);
     }
+
+    @Test
+    void testFactorialCase3(){
+        Assertions.assertAll(
+                () -> Assertions.assertEquals(FactorialRecursive(5),120)
+        );
+    }
 }
