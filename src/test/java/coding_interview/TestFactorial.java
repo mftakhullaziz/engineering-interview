@@ -49,4 +49,17 @@ public class TestFactorial {
                 () -> Assertions.assertEquals(FactorialRecursive(5),120)
         );
     }
+
+    // if tail recursive
+    public int FactorialTailRecursive(int total, int n){
+        if (n <= 1) return total;
+        return FactorialTailRecursive(total * n, n-1);
+    }
+
+    @Test
+    void testFactorialCase4(){
+        Assertions.assertAll(
+                () -> Assertions.assertEquals(FactorialTailRecursive(1, 5),120)
+        );
+    }
 }
