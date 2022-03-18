@@ -19,4 +19,12 @@ public class TestFactorial {
                 () -> Assertions.assertEquals(FactorialCase(5),120)
         );
     }
+
+    // if without temporary variable
+    public int FactorialCase2(int value, int total){
+        for (int i = value; i >=1 ; i--) {
+            total *= i;
+        }
+        return total;
+    }
 }
