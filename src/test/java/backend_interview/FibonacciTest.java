@@ -1,4 +1,4 @@
-package coding_interview;
+package backend_interview;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class TestFibonacci {
+public class FibonacciTest {
 
     public int FibonacciFindNumber(int n){
         int temp;

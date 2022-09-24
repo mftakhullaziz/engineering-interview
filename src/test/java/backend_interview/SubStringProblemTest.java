@@ -1,4 +1,4 @@
-package coding_interview;
+package backend_interview;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.util.HashSet;
 import java.util.Set;
 
-public class TestSubStringProblem {
+public class SubStringProblemTest {
     public int SubStringProblem(String n) {
         int pointer_a = 0;
         int pointer_b = 0;

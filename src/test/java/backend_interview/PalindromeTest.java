@@ -1,9 +1,9 @@
-package coding_interview;
+package backend_interview;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class TestPalindrome {
+public class PalindromeTest {
 
 //    test Palindrome Use Boolean function
 //    Case1 menggunakan Reverse String jika string yang di reverse sama dengan string

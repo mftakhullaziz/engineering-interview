@@ -1,11 +1,11 @@
-package coding_interview;
+package backend_interview;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.HashSet;
 
-public class TestFindPairsNumber {
+public class FindPairsNumberTest {
 
 //    Sum is Target
 //    Arr is random Int

@@ -1,11 +1,11 @@
-package coding_interview;
+package backend_interview;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.Stack;
 
-public class TestCheckValidParentheses {
+public class ValidationParenthesesTest {
     public boolean isValidParentheses(String chars){
         // check length for string brackets
         if (chars.length() < 1) return false;

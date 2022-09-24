@@ -1,4 +1,4 @@
-package coding_interview;
+package backend_interview;
 
 public class main {
     public static void main(String Args []) {

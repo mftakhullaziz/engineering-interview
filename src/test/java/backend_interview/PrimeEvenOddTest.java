@@ -1,11 +1,11 @@
-package coding_interview;
+package backend_interview;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestPrimeEvenOdd {
+public class PrimeEvenOddTest {
 
         public static List<String> Solution(int n) {
             int tmp;

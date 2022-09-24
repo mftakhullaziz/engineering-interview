@@ -1,11 +1,11 @@
-package coding_interview;
+package backend_interview;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-public class TestBinarySearch {
+public class BinarySearchTest {
     public int BinarySearch(int[] array_n, int target) {
         // init left and right
         int left = 0;

@@ -1,9 +1,9 @@
-package coding_interview;
+package backend_interview;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestReverseNumber {
+public class ReverseNumberTest {
     public int ReverseNumber(int n) {
         int temp = 0;
         while (n !=0 ) {

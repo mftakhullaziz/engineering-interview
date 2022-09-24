@@ -1,11 +1,11 @@
-package coding_interview;
+package backend_interview;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestCountPrime {
+public class CountPrimeTest {
     public int countPrimes(int n) {
         boolean[] notPrime = new boolean[n];
         int count = 0;

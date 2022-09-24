@@ -1,4 +1,4 @@
-package coding_interview;
+package backend_interview;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestPrimeNumber {
+public class PrimeNumberTest {
 
     public String PrimeTest(int n){
         List<Integer> res = new ArrayList<>();

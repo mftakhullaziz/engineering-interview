@@ -1,9 +1,9 @@
-package coding_interview;
+package backend_interview;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class TestFactorial {
+public class FactorialTest {
     // Kompleksitas Linier O(N)
     public int FactorialCase(int value){
         int temp = 1;
