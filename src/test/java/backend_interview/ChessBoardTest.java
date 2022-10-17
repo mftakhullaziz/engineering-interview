@@ -2,7 +2,7 @@ package backend_interview;
 
 import java.util.Collections;
 
-public class ChessBoard {
+public class ChessBoardTest {
     public void chessBoard(int x, int y){
         String blankSpace = "";
         for (int i =0; i < (y-4); i++) {
@@ -37,7 +37,7 @@ public class ChessBoard {
     }
 
     public static void main(String []args){
-        ChessBoard cB = new ChessBoard();
+        ChessBoardTest cB = new ChessBoardTest();
         // Value x : 2
         // Value y : 8
         cB.chessBoard(2,8);
