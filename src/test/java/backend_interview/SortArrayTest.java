@@ -1,13 +1,12 @@
-package interview_code;
+package backend_interview;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
-public class SortArray {
+public class SortArrayTest {
 
     // Sort with sort function from arrays => the time complexity O(n Log(n))
     public ArrayList<Integer> sortArray(int[] arr) {
