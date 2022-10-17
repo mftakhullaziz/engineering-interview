@@ -1,4 +1,4 @@
-package interview_code;
+package backend_interview;
 
 import java.util.Collections;
 
