@@ -36,6 +36,7 @@ public class SortArrayTest {
         return res;
     }
 
+//    Add test
     @Test
     public void testSortArray() {
         System.out.println("Sort with array sort : " + sortArray(new int[]{ 1,3,9,2,11,4,5 }));
