@@ -27,7 +27,7 @@ public class TwoSumCase {
 
     @Test
     void tests() {
-        System.out.println(twoSum(new int[] {3,2,4}, 6));
+        System.out.println(Arrays.toString(twoSum(new int[]{3, 2, 4}, 6)));
 //        Integer[] array = {3,2,4};
 //        ArrayList<int[]> actual = new ArrayList<>();
 //        actual.add(new int[] {Arrays.asList(array).indexOf(2), Arrays.asList(array).indexOf(4)});
