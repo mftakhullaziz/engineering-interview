@@ -16,7 +16,7 @@ public class TwoSumCase {
             int complement = target - nums[i];
             if (numMap.containsKey(complement)) {
                 System.out.println(numMap.get(complement) + ":" + i);
-                return new int[] { numMap.get(complement).intValue(), i};
+                return new int[] {numMap.get(complement), i};
             } else {
                 numMap.put(nums[i], i);
             }
