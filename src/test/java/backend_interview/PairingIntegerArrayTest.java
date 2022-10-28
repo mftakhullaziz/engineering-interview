@@ -1,10 +1,10 @@
-package interview_code;
+package backend_interview;
 
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-public class Pairs {
+public class PairingIntegerArrayTest {
     public ArrayList<Integer> pairsArrays(int[] arrlist) {
         HashSet<Integer> hashSet = new HashSet<>();
         ArrayList<Integer> arrayList = new ArrayList<>();
