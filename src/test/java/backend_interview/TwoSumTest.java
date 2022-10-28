@@ -1,13 +1,12 @@
-package interview_code;
+package backend_interview;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSumCase {
+public class TwoSumTest {
 
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> numMap = new HashMap<>();
