@@ -26,7 +26,7 @@ public class PrimeNumberTest {
             }
         }
 
-//        Get Prime range in List
+        // Get Prime range in List
         List<Integer> temp_result = new ArrayList<>();
         for(int i = 0; i < n; i++) {
             temp_result.add(res.get(i));
@@ -38,9 +38,8 @@ public class PrimeNumberTest {
     @Test
     public void testPrime1(){
         System.out.println("Test ==> PrimeTest(2) : " + PrimeTest(2));
-        System.out.println("Test ==> PrimeTest(4) : " +PrimeTest(4));
+        System.out.println("Test ==> PrimeTest(4) : " + PrimeTest(4));
 
-//        Using Assertions
         String actual = "2, 3";
         String actual1 = "2, 3, 5, 7";
         Assertions.assertAll(
